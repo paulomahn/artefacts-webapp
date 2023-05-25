@@ -1,0 +1,575 @@
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 21, 63);
+    color: white;
+}
+/* log0,nav and searchbox */
+.navbar{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px 30px 15px 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.navbar span{
+    color: rgb(240, 105, 57);
+    font-weight: bolder;
+    font-size: larger;
+    font-family: sans-serif;
+    cursor:  copy;
+}
+.navbar nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.navbar .searchdiv{
+    width: 500px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.096);
+    border-radius: 5px;
+}
+.navbar .searchdiv .searchbox{
+    width: 430px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0.651);
+    font-family: sans-serif;
+    font-size: 15px;
+    /* padding-top: 1px; */
+    margin-top: 5px;
+}
+.navbar nav a{
+    color: rgba(255, 255, 255, 0.651);
+    margin: 5px 17px 0;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.navbar nav a:hover{
+    color: white;
+}
+.navbar nav .active{
+    margin: 0 17px 0;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.76);
+    background-color: rgb(240, 95, 42);
+    border-radius: 5px;
+}
+
+
+/* introduction, main header and images */
+.section1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 80px 50px;
+}
+.section1a{
+    width: 35%;
+}
+.section1a h1{
+    font-family: sans-serif;
+    font-size: 45px;
+}
+.section1a h4{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.562);
+}
+.section1a_links{
+    margin: 30px 0;
+}
+.section1a_links a{
+    margin-right: 18px;
+    text-decoration: none;
+    padding: 13px 33px;
+    color: rgba(255, 255, 255, 0.76);
+    background-color: rgb(240, 95, 42);
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+.section1a_links .active{
+    background-color: rgba(255, 255, 255, 0.199);
+    color: rgba(255, 255, 255, 0.651);
+    font-family: sans-serif;
+    padding: 13px 25px;
+}
+.section1a_links a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 95, 42);
+}
+.section1a_links .active:hover{
+    background-color: rgba(255, 255, 255, 0.342);
+    color: rgba(255, 255, 255, 0.842);
+}
+.section1a_numbersandinfo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.section1a_numbersandinfo span{
+    /* margin: 20px 0; */
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.section1a_numbersandinfo .active{
+    color: rgba(255, 255, 255, 0.651);
+}
+
+/* images on the background */
+.bgdiv{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    margin-right: 100px;
+}
+.bgdivsect1 img,.bgdivsect2 img{
+    display: block;
+    margin-top: 10px;
+}
+
+
+/* short section having binance, etherum, blockchain logo */
+.section2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 50px 50px;
+}
+.section2 span{
+    color: rgba(255, 255, 255, 0.651);
+    margin-left: 20px;
+}
+.section2 .active1{
+    font-size: 21px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+.section2 .active2{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+.section2 .active3{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+.section2 img{
+    width: 10%;
+    border-radius: 3px;
+}
+
+/* collection buttons and divs */
+#section3{
+    margin: 50px 50px;
+}
+.collectionheader{
+    text-align: center;
+}
+.collectionheader h2{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.collectionheader h5{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.651);
+}
+.collection_selector{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+/* .collection_selector button{
+    width: 300px;
+    height: 30px;
+    cursor: pointer;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.137);
+    color: rgba(255, 255, 255, 0.651);
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: sans-serif;
+} */
+
+/* #wildlifebtn{
+    width: 300px;
+    height: 30px;
+    cursor: pointer;
+    display: block;
+    background-color: rgb(240, 95, 42);
+    color: rgba(255, 255, 255, 0.651);
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: sans-serif;
+} */
+
+#wildlifebtn,#artbtn,#naturebtn,#photographybtn{
+    width: 300px;
+    height: 30px;
+    cursor: pointer;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.137);
+    color: rgba(255, 255, 255, 0.651);
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+/* .collection_selector button:hover, .collection_selector .active{
+    color: rgba(255, 255, 255, 0.76);
+    background-color: rgb(240, 95, 42);
+} */
+
+#wildlifebtn:hover,#artbtn:hover,#naturebtn:hover,#photographybtn:hover{
+    color: rgba(255, 255, 255, 0.76);
+    background-color: rgb(240, 95, 42);
+}
+
+#section3 .wildlife_collection{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+#section3 .wildlife_collection .box2{
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.137);
+    border-radius: 5px;
+    padding: 15px;
+}
+#section3 .wildlife_collection .box2 img{
+    display: grid;
+    place-items: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+#section3 .wildlife_collection .boxsubdiv{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+#section3 .wildlife_collection .boxsubdiv h6{
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#section3 .wildlife_collection .boxsubdiv header{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#section3 .wildlife_collection button{
+    width: 300px;
+    height: 30px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.76);
+    background-color: rgb(240, 95, 42);
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin: 20px;
+}
+#section3 .wildlife_collection button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(240, 95, 42, 0.822);
+}
+
+
+#section3 .nature_collection{
+    display: none;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+#section3 .nature_collection .box2{
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.137);
+    border-radius: 5px;
+    padding: 15px;
+}
+#section3 .nature_collection .box2 img{
+    display: grid;
+    place-items: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+#section3 .nature_collection .boxsubdiv{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+#section3 .nature_collection .boxsubdiv h6{
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#section3 .nature_collection .boxsubdiv header{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#section3 .nature_collection button{
+    width: 300px;
+    height: 30px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.76);
+    background-color: rgb(240, 95, 42);
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin: 20px;
+}
+#section3 .nature_collection button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(240, 95, 42, 0.822);
+}
+
+
+
+#section3 .art_collection{
+    display: none;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+#section3 .art_collection .box2{
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.137);
+    border-radius: 5px;
+    padding: 15px;
+}
+#section3 .art_collection .box2 img{
+    display: grid;
+    place-items: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+#section3 .art_collection .boxsubdiv{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+#section3 .art_collection .boxsubdiv h6{
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#section3 .art_collection .boxsubdiv header{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#section3 .art_collection button{
+    width: 300px;
+    height: 30px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.76);
+    background-color: rgb(240, 95, 42);
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin: 20px;
+}
+#section3 .art_collection button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(240, 95, 42, 0.822);
+}
+
+#section3 .photography_collection{
+    display: none;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+#section3 .photography_collection .box2{
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.137);
+    border-radius: 5px;
+    padding: 15px;
+}
+#section3 .photography_collection .box2 img{
+    display: grid;
+    place-items: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+#section3 .photography_collection .boxsubdiv{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+#section3 .photography_collection .boxsubdiv h6{
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#section3 .photography_collection .boxsubdiv header{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#section3 .photography_collection button{
+    width: 300px;
+    height: 30px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.76);
+    background-color: rgb(240, 95, 42);
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin: 20px;
+}
+#section3 .photography_collection button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(240, 95, 42, 0.822);
+}
+
+
+
+/* section4 is the about us section */
+.section4 .aboutusheader{
+    text-align: center;
+}
+.section4 .aboutusheader h2{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.section4 .aboutusheader h5{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.651);
+}
+.section4content{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.section4content img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 70px 0 30px 60px;
+    box-shadow: 2px 5px 5px black;
+}
+.section4contentparagraph{
+    width: 45%;
+    margin: 50px 0;
+}
+.section4contentparagraph h2{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.section4contentparagraph p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.562);
+}
+.section4contentparagraph button{
+    margin-right: 18px;
+    text-decoration: none;
+    padding: 10px 33px;
+    color: rgba(255, 255, 255, 0.76);
+    background-color: rgb(240, 95, 42);
+    border-radius: 5px;
+    font-family: sans-serif;
+    border: none;
+    cursor: pointer;
+}
+.section4contentparagraph button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(240, 95, 42, 0.747);
+}
+.section5{
+    background-color: rgb(240, 95, 42);
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.section5 h1{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+.section5 button{
+    cursor: pointer;
+    border: none;
+    padding: 7px 19px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.123);
+}
+.section5 button:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.37);
+}
+.last_section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.sect1lastdiv{
+    width: 25%;
+}
+.sect2lastdiv a,.sect1lastdiv p,.sect3lastdiv a{
+    display: block;
+    width: fit-content;
+    list-style: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.486);
+}
+.last_section a:hover{
+    border-bottom: 1px rgba(255, 255, 255, 0.486) solid;
+}
+.sect2lastdiv a,.sect3lastdiv a{
+    padding-top: 20px;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+    color: rgba(255, 255, 255, 0.486);
+}
+footer span{
+    color: white;
+}
+@media (max-width:1500px) {
+}

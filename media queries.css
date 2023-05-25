@@ -1,0 +1,406 @@
+media (max-width:1150px) {
+    .navbar{
+        display: block;
+    }
+    .navbar .searchdiv{
+        float: right;
+        max-width: fit-content;
+        padding: 0 10px;
+    }
+    .navbar .searchdiv .searchbox{
+        width: 200px;
+    }
+    .navbar nav{
+        width: 90%;
+        margin: 30px auto 0;
+        background-color: rgba(113, 107, 146, 0.568);
+        border-radius: 10px;
+    }
+    .section1{
+        display: block;
+        margin: 60px 50px;
+    }
+    .section1a{
+        width: 90%;
+    }
+    .section1a h1{
+        width: 76%;
+    }
+    .section1a h4{
+        width: 70%;  
+    }
+    .section1a_links{
+        width: 90%;
+    }
+    .bgdiv{
+        display: none;
+    }
+    .collectionheader h5{
+        width: 70%;
+    }
+    .collection_selector{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .collection_selector button{
+        margin: 10px;
+    }
+    .section4 .aboutusheader h5{
+        width: 70%;
+    }
+    .section4content{
+        display: block;
+    }
+    .section4content img{
+        display: none;
+    }
+    .section4contentparagraph{
+        width: 90%;
+        margin: 20px auto 40px;
+    }
+    .section4contentparagraph h2{
+        display: none;
+        font-size: 15px;
+        color: rgba(252, 251, 251, 0.582);
+    }
+    .section4contentparagraph p{
+        font-family: sans-serif;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.562);
+    }
+    .section5 h1{
+        width: 70%;
+    }
+    #section3 .wildlife_collection{
+        display: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+    #section3 .wildlife_collection .box2{
+        width: 300px;
+        height: fit-content;
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.137);
+        border-radius: 5px;
+        padding: 15px;
+    }
+    #section3 .wildlife_collection .box2 img{
+        display: grid;
+        place-items: center;
+        width: 250px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    #section3 .wildlife_collection .boxsubdiv{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    #section3 .wildlife_collection .boxsubdiv h6{
+        color: rgba(255, 255, 255, 0.651);
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    #section3 .wildlife_collection .boxsubdiv header{
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    #section3 .wildlife_collection button{
+        width: 200px;
+        height: 30px;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.76);
+        background-color: rgb(240, 95, 42);
+        border: none;
+        border-radius: 5px;
+        font-size: 17px;
+        font-family: sans-serif;
+        margin: 20px;
+    }
+    #section3 .wildlife_collection button:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgba(240, 95, 42, 0.822);
+    }
+
+
+    #section3 .nature_collection{
+        display: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+    #section3 .nature_collection .box2{
+        width: 300px;
+        height: fit-content;
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.137);
+        border-radius: 5px;
+        padding: 15px;
+    }
+    #section3 .nature_collection .box2 img{
+        display: grid;
+        place-items: center;
+        width: 250px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    #section3 .nature_collection .boxsubdiv{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    #section3 .nature_collection .boxsubdiv h6{
+        color: rgba(255, 255, 255, 0.651);
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    #section3 .nature_collection .boxsubdiv header{
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    #section3 .nature_collection button{
+        width: 200px;
+        height: 30px;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.76);
+        background-color: rgb(240, 95, 42);
+        border: none;
+        border-radius: 5px;
+        font-size: 17px;
+        font-family: sans-serif;
+        margin: 20px;
+    }
+    #section3 .nature_collection button:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgba(240, 95, 42, 0.822);
+    }
+
+
+    #section3 .art_collection{
+        display: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+    #section3 .art_collection .box2{
+        width: 300px;
+        height: fit-content;
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.137);
+        border-radius: 5px;
+        padding: 15px;
+    }
+    #section3 .art_collection .box2 img{
+        display: grid;
+        place-items: center;
+        width: 250px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    #section3 .art_collection .boxsubdiv{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    #section3 .art_collection .boxsubdiv h6{
+        color: rgba(255, 255, 255, 0.651);
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    #section3 .art_collection .boxsubdiv header{
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    #section3 .art_collection button{
+        width: 200px;
+        height: 30px;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.76);
+        background-color: rgb(240, 95, 42);
+        border: none;
+        border-radius: 5px;
+        font-size: 17px;
+        font-family: sans-serif;
+        margin: 20px;
+    }
+    #section3 .art_collection button:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgba(240, 95, 42, 0.822);
+    }
+
+
+
+    #section3 .photography_collection{
+        display: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+    #section3 .photography_collection .box2{
+        width: 300px;
+        height: fit-content;
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.137);
+        border-radius: 5px;
+        padding: 15px;
+    }
+    #section3 .photography_collection .box2 img{
+        display: grid;
+        place-items: center;
+        width: 250px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    #section3 .photography_collection .boxsubdiv{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    #section3 .photography_collection .boxsubdiv h6{
+        color: rgba(255, 255, 255, 0.651);
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    #section3 .photography_collection .boxsubdiv header{
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    #section3 .photography_collection button{
+        width: 200px;
+        height: 30px;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.76);
+        background-color: rgb(240, 95, 42);
+        border: none;
+        border-radius: 5px;
+        font-size: 17px;
+        font-family: sans-serif;
+        margin: 20px;
+    }
+    #section3 .photography_collection button:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgba(240, 95, 42, 0.822);
+    }
+}
+
+@media (max-width:600px) {
+    .navbar{
+        padding: 25px 10px 15px 10px; 
+    }
+    .navbar .searchdiv .searchbox{
+        width: 170px;
+        font-size: 10px;
+        /* padding-top: 1px; */
+        margin-top: 0px;
+    }
+    .navbar nav{
+        width: 93%;
+    }
+    .navbar nav a{
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.651);
+        margin: 5px 17px 0;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+    .navbar nav a:hover{
+        background-color: rgba(255, 255, 255, 0.329);
+        color: rgb(255, 255, 255);
+    }
+    .section1{
+        display: block;
+        margin: 30px 30px;
+    }
+    .section1a{
+        width: 100%;
+    }
+    .section1a h1{
+        width: 90%;
+    }
+    .section1a h4{
+        width: 80%;  
+    }
+    .section1a_links{
+        width: 90%;
+    }
+    .section1a_links a{
+        font-size: 10px;
+        margin-right: 18px;
+        text-decoration: none;
+        padding: 10px 27px;
+        color: rgba(255, 255, 255, 0.76);
+        background-color: rgb(240, 95, 42);
+        border-radius: 5px;
+        font-family: sans-serif;
+    }
+    .section2{
+        margin: 50px 10px;
+    }
+    .section2 span{
+        color: rgba(255, 255, 255, 0.651);
+        margin-left: 10px;
+    }
+    .section2 .active1{
+        font-size: 12px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 15px;
+    }
+    .section2 .active2{
+        font-size: 12px;
+        font-family: sans-serif;
+        margin-left: 20px;
+    }
+    .section2 .active3{
+        font-size: 12px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 20px;
+    }
+    .section2 img{
+        width: 10%;
+        border-radius: 3px;
+    }
+    .section4 .aboutusheader h5{
+        width: 90%;
+    }
+    .section4contentparagraph{
+        width: 90%;
+        margin: 20px auto 20px;
+    }
+    .section4contentparagraph h2{
+        display: none;
+        font-size: 15px;
+        color: rgba(252, 251, 251, 0.582);
+    }
+    .section4contentparagraph p{
+        font-family: sans-serif;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.562);
+    }
+    .section5{
+        width: 100%;
+        height: fit-content;
+    }
+    .last_section{
+        flex-wrap: wrap;
+    }
+    .sect1lastdiv{
+        width: fit-content;
+    }
+    .collectionheader h5{
+        width: 100%;
+    }
+    .section4 .aboutusheader h5{
+        width: 80%;
+    }
+    .section5 h1{
+        width: 90%;
+    }
+    
+}

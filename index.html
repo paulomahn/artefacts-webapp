@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artefacts</title>
+    <link rel="stylesheet" href="styleartefacts.css">
+    <link rel="stylesheet" href="media queries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="artefactscript.js"></script>
+</head>
+<body>
+    <div>
+        <!-- log0,nav and searchbox -->
+        <div class="navbar">
+            <span>ArteFACTS</span>
+            <div class="searchdiv">
+                <i class="fa fa-search"></i>
+                <input type="search" value="Search items and Collections" style="height: 20px;" class="searchbox">
+            </div>
+            <nav>
+                <a href="#">cart <i class="fa fa-lock" style="margin-right: 2px;"></i></a>
+                <a href="#section3">Collection</a>
+                <a href="#">FAQ</a>
+                <a href="#" class="active">Connect Wallet</a>
+            </nav>
+        </div>
+
+        <!-- introduction, main header and images -->
+        <div class="section1">
+            <div class="section1a">
+                <h1>Create, Sell & Collect Your Own Creative NFT</h1>
+                <h4>ArteFACTS is one of the world's largest NFT marketplace.</h4>
+                <div class="section1a_links">
+                    <a href="#section3">Explore Now <i class="fa fa-car" style="margin-right: 2px;"> </i></a>
+                    <a href="#" class="active">Sell NFT <i class="fa fa-globe" style="margin-right: 2px;"></i></a>
+                </div>
+                <div class="section1a_numbersandinfo">
+                    <div>
+                    <span>59K+</span>
+                    <br>
+                    <br>
+                    <span class="active">Artworks</span>
+                    </div>
+                    <div>
+                    <span>15K+</span>
+                    <br>
+                    <br>
+                    <span class="active">Artists</span>
+                    </div>
+                    <div>
+                    <span>150K+</span>
+                    <br>
+                    <br>
+                    <span class="active">Auctions</span>
+                    </div>
+                </div>
+            </div>
+            <!-- the images on the front page -->
+            <div class="bgdiv">
+                <div class="bgdivsect1">
+                    <img src="bg2.JPG" alt="background image" style="width: 95%; border-radius: 10px;">
+                    <img src="bg1.JPG" alt="background image" style="width: 95%; border-radius: 10px;">
+                    <img src="bg7.JPG" alt="background image" style="width: 95%; border-radius: 10px;">
+                </div>
+                <div class="bgdivsect2">
+                    <img src="bg3.JPG" alt="background image" style="width: 90%; border-radius: 10px;">
+                    <img src="bg4.JPG" alt="background image" style="width: 90%; border-radius: 10px;">
+                    <img src="bg6.JPG" alt="background image" style="width: 90%; border-radius: 10px;">
+                </div>
+                <div class="bgdivsect3">
+                    <img src="bg5.JPG" alt="background image" style="width: 90%;  border-radius: 10px; padding-top: 100px;">
+                </div>
+            </div> 
+            
+        </div>
+
+        <!-- short section having binance, etherum, blockchain logo -->
+    <div class="section2">
+        <div>
+            <img src="bitcion.JPG" alt=""><span class="active1">BINANCE</span>
+        </div>
+        <div>
+            <img src="etherum.JPG" alt=""><span class="active2">etherum</span>
+        </div>
+        <div>
+            <img src="blockchain.JPG" alt=""><span class="active3">blockchain.io</span>
+        </div>
+    </div>
+
+    <!-- collection buttons and divs  -->
+    <div id="section3">
+        <div class="collectionheader">
+            <h2>Collection</h2>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+        </div>
+        <div class="collection_selector">
+            <button id="wildlifebtn" class="active" onclick="functionForwildlifebtn()">Wildlife</button>
+            <button id="naturebtn" onclick="functionFornaturebtn()">Nature</button>
+            <button id="artbtn" onclick="functionForartbtn()">Art</button>
+            <button id="photographybtn" onclick="functionForphotographybtn()">Photography</button>
+        </div>
+
+        <div>
+        <div class="wildlife_collection" id="wildlife">
+            <div class="box2">
+                <img src="lion.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@dml</h6>
+                        <br>
+                        <header>Lion's Mane</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <br>
+                        <header>0.045ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+
+            <div class="box2">
+                <img src="deer1.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@Tenman</h6>
+                        <br>
+                        <header>Feed deer</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <br>
+                        <header>0.003ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+
+            <div class="box2">
+                <img src="deer2.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@Tenman</h6>
+                        <!-- <br> -->
+                        <header>Look there</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <!-- <br> -->
+                        <header>0.003ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+
+            <div class="box2">
+                <img src="deer2.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@Tenman</h6>
+                        <!-- <br> -->
+                        <header>Look there</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <!-- <br> -->
+                        <header>0.003ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+
+
+            <div class="box2">
+                <img src="deer2.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@Tenman</h6>
+                        <!-- <br> -->
+                        <header>Look there</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <!-- <br> -->
+                        <header>0.003ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+
+
+            
+        </div>
+
+        <div id="nature" class="nature_collection">
+            <div class="box2">
+                <img src="lion.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@dml</h6>
+                        <br>
+                        <header>Lion's Mane</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <br>
+                        <header>0.045ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+        
+            <div class="box2">
+                <img src="deer2.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@Tenman</h6>
+                        <!-- <br> -->
+                        <header>Look there</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <!-- <br> -->
+                        <header>0.003ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+        
+            <div class="box2">
+                <img src="deer2.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@Tenman</h6>
+                        <!-- <br> -->
+                        <header>Look there</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <!-- <br> -->
+                        <header>0.003ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+        
+        
+        
+            <div class="box2">
+                <img src="deer1.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@Tenman</h6>
+                        <br>
+                        <header>Feed deer</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <br>
+                        <header>0.003ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+        
+            
+        </div>
+       
+        <div id="art" class="art_collection">
+            <div class="box2">
+                <img src="lion.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@dml</h6>
+                        <br>
+                        <header>Lion's Mane</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <br>
+                        <header>0.045ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+        
+            <div class="box2">
+                <img src="deer1.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@Tenman</h6>
+                        <br>
+                        <header>Feed deer</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <br>
+                        <header>0.003ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+        
+            <div class="box2">
+                <img src="deer2.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@Tenman</h6>
+                        <!-- <br> -->
+                        <header>Look there</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <!-- <br> -->
+                        <header>0.003ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+        
+            <div class="box2">
+                <img src="cheetah.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@Craeig</h6>
+                        <!-- <br> -->
+                        <header>A peek from its peak</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <!-- <br> -->
+                        <header>0.047ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+        
+            <div class="box2">
+                <img src="deer3.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@will</h6>
+                        <!-- <br> -->
+                        <header>Reindeer</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <!-- <br> -->
+                        <header>0.006ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+        
+            
+        </div>
+        
+        <div id="photography" class="photography_collection">
+            <div class="box2">
+                <img src="lion.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@dml</h6>
+                        <br>
+                        <header>Lion's Mane</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <br>
+                        <header>0.045ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+        
+            <div class="box2">
+                <img src="deer1.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@Tenman</h6>
+                        <br>
+                        <header>Feed deer</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <br>
+                        <header>0.003ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+        
+            <div class="box2">
+                <img src="deer2.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@Tenman</h6>
+                        <!-- <br> -->
+                        <header>Look there</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <!-- <br> -->
+                        <header>0.003ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+        
+            <div class="box2">
+                <img src="cheetah.JPG" alt="">
+                <div class="boxsubdiv">
+                    <div>
+                        <h6>@Craeig</h6>
+                        <!-- <br> -->
+                        <header>A peek from its peak</header>
+                    </div>
+                    <div>
+                        <h6>current Bid</h6>
+                        <!-- <br> -->
+                        <header>0.047ETH</header>
+                    </div>
+                </div>
+                <button>Place a bid</button>
+            </div>
+        
+            
+        
+            
+        </div>
+    </div>
+
+
+        <div class="section4">
+            <div class="aboutusheader">
+                <h2>About Us</h2>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+            </div>
+            <div class="section4content">
+            <img src="car.JPG" alt="car image">
+            <div class="section4contentparagraph">
+                <h2>Get Popular NFT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Fugit ad quos, est doloremque fugiat assumenda suscipit accusantium quod. 
+                    Similique nostrum incidunt amet voluptatem odit eum pariatur labore officiis. 
+                    Libero, unde! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, 
+                    sequi unde beatae dicta fugiat eaque molestiae laudantium dolorum quidem amet quam excepturi, 
+                    ipsa architecto deserunt vitae dignissimos iusto, aspernatur suscipit?
+                </p>
+                <button>Show more</button>
+            </div>
+            </div>
+        </div>
+
+        <div class="section5">
+            <h1>Get ready to collect our NFT</h1>
+            <button>Get Started</button>
+        </div>
+
+        <div class="last_section">
+            <div class="sect1lastdiv">
+                <header>Artefacts</header>
+                <p>The best NFT marketplace website in he world and feel your experience in selling or buying our work</p>
+            </div>
+            <div class="sect2lastdiv">
+                <header>About</header>
+                <a href="">product</a>
+                <a href="">Resource</a>
+                <a href="">Terms and Condition</a>
+            </div>
+            <div class="sect3lastdiv">
+                <header>Contact</header>
+                <a href="mailto:lawaleomoniyi1411@gmail.com">lawaleomoniyi1411@gmail.com</a>
+            </div>
+        </div>
+
+        <footer>Created by <span>PAULO</span> | All Right Reserved.</footer>
+        </div>
+</body>
+</html>
